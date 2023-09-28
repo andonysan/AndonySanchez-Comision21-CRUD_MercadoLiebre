@@ -6,6 +6,7 @@
 *.exe
 *.o
 *.so
+.env
 
 # Packages #
 ############
@@ -25,6 +26,7 @@
 *.log
 *.sql
 *.sqlite
+.env
 
 # OS generated files #
 ######################

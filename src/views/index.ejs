@@ -21,7 +21,7 @@
 			<% productsVisited.forEach(producto => { %>
 				<div class="col-12 col-sm-6 col-lg-3">
 					<%- include('partials/sectionProduct',{
-						...producto
+						...producto.dataValues
 					}) %>
 				</div>	
 			<% }) %>
@@ -40,7 +40,7 @@
 			<% productsOfert.forEach(producto => { %>
 				<div class="col-12 col-sm-6 col-lg-3">
 					<%- include('partials/sectionProduct',{
-						...producto,
+						...producto.dataValues,
 						toThousand
 					}) %>
 				</div>	
